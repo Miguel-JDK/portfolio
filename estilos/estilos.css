@@ -1,0 +1,285 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h5{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 130px;
+    justify-content: flex-end;
+    
+}
+
+.header a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    padding: 0 10px;
+  }
+  .header ol{
+      display:flex;
+      height: inherit;
+  }
+ 
+
+.menu{
+    color: white;
+ /*   border:1px solid blue; */
+    height: 100px;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+
+  
+    
+    
+}
+
+.hero{
+    height: 340px;
+    background-color:#1b2127;
+   /* background-image: url('../images/portada.jpg');*/
+   /*background-size: 500px 400px;
+    background-repeat: no-repeat; 
+    background-position: right; */
+    display:flex;
+    justify-content: space-between;
+
+}
+.hero1{
+    background-color:#1b2127;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+
+}
+.hero-image{
+    object-fit: cover;
+    
+}
+.hero h1{
+    color: white;
+    font-weight: 30px;
+    font-size: 50x;
+    margin:100px 500px 70px 30px; 
+    margin:0;
+}
+
+h2{
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+h1 strong{
+    color: #026fff;
+   
+}
+
+
+.project{
+   display: flex;
+   box-shadow: indigo;
+   border: 2px solid gray;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   padding: 20px;
+  /* margin: 10px; */
+   background-color: white;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.project-title{
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.course{
+    
+    margin: 10px 0;
+}
+.date{
+    
+    margin: 10px 0;
+
+}
+.url{
+    margin: 10px 0;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.project-details{
+    width: 500px;
+    margin: 10px 20px;
+    
+    
+    /*margen de arriba esta resumido
+    recuerda que con auto entre izquierda y derecha
+    podemos centrar el elemento, y arriba y abajo 0px
+    margin: 0px auto;*/
+
+}
+
+.project-imageContainer{
+    width: 600px;
+    height: 400px;
+
+ 
+    
+}
+
+.portfolio{
+    background-color: #eeebeb;
+    padding: 20px;
+}
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.event{
+    border: 2px solid red;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background: rgb(119, 175, 228);
+   
+    
+
+}
+.event-detail{
+    margin: 10px 50px;
+    margin-top: -120px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding: 20px 10px;
+}
+.event-description{
+    text-align:left
+}
+.event-url{
+    border: 1px solid #056fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.figure-image{
+    width: 700px;
+    height:300px;
+    object-fit: cover;
+}
+.work{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.social{
+ /* border: 2px solid red; */
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+/*.social-link.github{
+    background-image: url(pegas);
+}
+*/
+.form-email input{
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+   /* background-image: url(pegas aqui una imagen);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+}
+.form-email button{
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin: 10px 30px;
+}
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer div p a strong{
+    color: white;
+    text-decoration: underline;
+}
+
+.container{
+  /*  border: 1px solid red;   */
+    display: inherit;
+    justify-content: inherit;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+
+.container-btn{
+    margin: 2px;
+ /*   border: 3px solid green; */
+    background-color: #1b2123;
+    width: 400px;
+    height: 220px;
+    
+    
+}
+
+.btn-image{
+/*    border: 1px solid yellow; */
+    width: 400px;
+    height: 220px;
+
+}
+
+.container-text{
+ /*   border: 1px solid green; */
+    width: 450px;
+    height: 250px;
+    font-size: 44px;
+    
+
+}
